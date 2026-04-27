@@ -1,5 +1,5 @@
 ---
-title: "Francisca Hernández"
+title: "Francisca Hernández Cañas"
 about:
   template: trestles
   image: img/perfil.jpeg
@@ -17,10 +17,31 @@ about:
 
 ## Sobre mí
 
-Acá escribes una descripción corta de quién eres, a qué te dedicas, qué te interesa.
+Estudiante de Sociología en la **Universidad Diego Portales**, actualmente cursando cuarto año de la carrera. Mi interés se centra en la **programación aplicada a las ciencias sociales**, el manejo de bases de datos, y el modelamiento y predicción con datos.
+
+Tengo un interés transversal por la **filosofía, teoría social, teoría económica, movimientos sociales y feminismos**. Mi meta es desarrollarme como profesional con un sólido conocimiento teórico y metodológico, capaz de aplicar enfoques interdisciplinarios al estudio de la organización social, la cultura y la desigualdad estructural.
+
+Actualmente soy tesista de pregrado en el **Fondecyt In-fertilidades**, investigando temáticas de fertilidad, género y justicia reproductiva, e integrante del **Observatorio Violencia y Legitimidad Social (OLES)**.
 
 ## Intereses
 
-- Tema 1
-- Tema 2
-- Tema 3
+- Métodos cuantitativos y análisis de datos
+- Programación en R aplicada a ciencias sociales
+- Movimientos sociales y feminismos
+- Género, sexualidad y justicia reproductiva
+- Teoría social y teoría económica
+- Desigualdad estructural
+
+## Educación
+
+- **Licenciatura en Sociología** — Universidad Diego Portales (2022 - actual)
+- **Diploma de honor en Género** — UDP (2024 - actual)
+- **Diploma en Métodos Cuantitativos** — UDP (2023 - actual)
+- **Diploma de honor en Pensamiento Contemporáneo y Filosofía** — UDP (2022 - 2024)
+
+## Experiencia reciente
+
+- **Tesista de pregrado** — Fondecyt In-fertilidades (2025 - actual)
+- **Ayudante Análisis Avanzado de Datos II** — UDP (2025 - actual)
+- **Práctica electiva e integrante de pregrado** — Observatorio Violencia y Legitimidad Social, OLES (2024 - actual)
+- **Coordinadora General de Género, Sexualidad y Cuidados** — Federación de Estudiantes UDP (2023 - 2024)
