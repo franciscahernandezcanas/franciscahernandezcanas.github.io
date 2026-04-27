@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "proyects.html",
+    "href": "proyects.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Acá voy a ir agregando mis proyectos."
+  },
+  {
+    "objectID": "proyects.html#proyecto-1",
+    "href": "proyects.html#proyecto-1",
+    "title": "Proyectos",
+    "section": "Proyecto 1",
+    "text": "Proyecto 1\nDescripción del proyecto."
+  },
+  {
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Puedes contactarme a través de:\n\n📧 Email: franhc123@gmail.com"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Francisca Hernández",
+    "section": "",
+    "text": "Acá escribes una descripción corta de quién eres, a qué te dedicas, qué te interesa."
+  },
+  {
+    "objectID": "index.html#sobre-mí",
+    "href": "index.html#sobre-mí",
+    "title": "Francisca Hernández",
+    "section": "",
+    "text": "Acá escribes una descripción corta de quién eres, a qué te dedicas, qué te interesa."
+  },
+  {
+    "objectID": "index.html#intereses",
+    "href": "index.html#intereses",
+    "title": "Francisca Hernández",
+    "section": "Intereses",
+    "text": "Intereses\n\nTema 1\nTema 2\nTema 3"
+  }
+]

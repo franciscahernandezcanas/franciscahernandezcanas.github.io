@@ -1,0 +1,26 @@
+---
+title: "Francisca Hernández"
+about:
+  template: trestles
+  image: img/perfil.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:franhc123@gmail.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/
+    - icon: github
+      text: GitHub
+      href: https://github.com/franciscahernandezcanas
+---
+
+## Sobre mí
+
+Acá escribes una descripción corta de quién eres, a qué te dedicas, qué te interesa.
+
+## Intereses
+
+- Tema 1
+- Tema 2
+- Tema 3

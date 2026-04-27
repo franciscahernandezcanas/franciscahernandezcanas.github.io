@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Francisca Hernández"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Sobre mí
+      - href: proyectos.qmd
+        text: Proyectos
+      - href: contacto.qmd
+        text: Contacto
+
+format:
+  html:
+    theme: cosmo
+    toc: false
