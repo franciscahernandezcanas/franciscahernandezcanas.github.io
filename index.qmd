@@ -14,6 +14,9 @@ about:
       text: GitHub
       href: https://github.com/franciscahernandezcanas
 ---
+## Acerca del sitio
+
+En este sitio subiré repositorios de materiales para utilizar R, aprender de estadistica y análisis de datos :3
 
 ## Sobre mí
 
