@@ -8,11 +8,12 @@ website:
     right:
       - href: index.qmd
         text: Sobre mí
-      - href: proyectos.qmd
+      - href: proyects.qmd
         text: Proyectos
       - href: contacto.qmd
         text: Contacto
-
+      - href: materiales/ayudantia-aadd-ii-prueba.qmd
+        text: Ayudantías
 format:
   html:
     theme: cosmo
