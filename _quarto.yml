@@ -13,8 +13,9 @@ website:
       - href: contacto.qmd
         text: Contacto
       - href: materiales/ayudantia-aadd-ii-prueba.qmd
-        text: Ayudantías
+        text: Materiales
 format:
   html:
     theme: cosmo
+    css: styles.css
     toc: false
