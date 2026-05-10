@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-About this site
+En este sitio subiré repositorios de materiales para utilizar R y aprender de estadistica y análisis de datos :3
