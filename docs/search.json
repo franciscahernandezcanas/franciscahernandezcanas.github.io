@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "proyects.html",
+    "href": "proyects.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Acá voy a ir agregando mis proyectos."
+  },
+  {
+    "objectID": "proyects.html#proyecto-1",
+    "href": "proyects.html#proyecto-1",
+    "title": "Proyectos",
+    "section": "Proyecto 1",
+    "text": "Proyecto 1\nDescripción del proyecto."
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html",
+    "title": "Ayudantía Prueba",
+    "section": "",
+    "text": "Análisis Avanzado de Datos II  Facultad de Ciencias Sociales e Historia"
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#diferenciación-replicación-y-reproducibilidad",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#diferenciación-replicación-y-reproducibilidad",
+    "title": "Ayudantía Prueba",
+    "section": "1.1 Diferenciación Replicación y Reproducibilidad",
+    "text": "1.1 Diferenciación Replicación y Reproducibilidad\nReplicar es hacer la pelea de nuevo otro investigador, en otro lugar, con datos nuevos, intenta estudiar lo mismo a ver si le da parecido. Es lo ideal, pero muchas veces no se puede hacer (sale caro, toma años, o el contexto ya cambió)\nReproducir es agarrar los datos y el código del estudio original y volver a correrlos. Es el mínimo exigibl si alguien publicó un resultado, lo menos que se le puede pedir es que comparta los datos y el código para que cualquiera pueda revisar cómo llegó ahí."
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#ciencia-abierta",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#ciencia-abierta",
+    "title": "Ayudantía Prueba",
+    "section": "1.2 Ciencia Abierta",
+    "text": "1.2 Ciencia Abierta\nMarco que cubre cuatro etapas:\n\nDiseño transparente → publicar hipótesis, procedimientos y plan de análisis.Permite distinguir lo planeado de lo emergente.\nDatos abiertos → publicar 4 elementos: base de datos, cuestionario, libro de códigos y ficha técnica.\nAnálisis reproducibles → estructura de proyecto, prácticas de código, documentos dinámicos y control de versiones (lo que nos permite Quarto)\nPublicaciones libres → eliminar barreras económicas al acceso al conocimiento."
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#muestreo-aleatorio-simple-mas",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#muestreo-aleatorio-simple-mas",
+    "title": "Ayudantía Prueba",
+    "section": "2.1 Muestreo Aleatorio Simple (MAS)",
+    "text": "2.1 Muestreo Aleatorio Simple (MAS)\nLa idea más simple es la de la tómbola gigante donde meter el nombre de cada chileno en un bombo y sacar 1.500 papeles al azar. Todos tienen exactamente la misma probabilidad de salir. Suena perfecto, y de hecho casi toda la estadística básica que aprendieron (medias, intervalos de confianza, test t) asume que los datos vienen de un MAS.\n\nEl problema es que en la vida real el MAS casi nunca se puede hacer\n\n\n\n\n\n\n¿ Y porque no?\n\n\n\n\n\n\nNo existe una lista completa\n\nimaginate que quieres estudiar a los chilenos, para hacer una tómbola necesitas tener todos los nombres. Pero no hay una lista actualizada de todos los chilenos con su dirección y teléfono. Y si quieres estudiar grupos más específicos (migrantes recientes, trabajadores informales), peor todavía.\n\nCostoso\n\nImagínate que la tómbola te selecciona personas de Arica, Punta Arenas, Isla de Pascua y un cerro perdido en la cordillera. Mandar encuestadores a cada rincón del país es inviable en plata y tiempo\n\nPequeños grupos quedan fuera\n\nSi quieres estudiar a los aymaras de la Región Metropolitana (aprox el 0,1% de la población), con una muestra al azar de 1.500 personas probablemente no te va a tocar ninguno. Y si te toca uno o dos, no puedes hacer análisis serio con eso."
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#el-diseño-muestral-complejo",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#el-diseño-muestral-complejo",
+    "title": "Ayudantía Prueba",
+    "section": "2.2 El diseño muestral complejo",
+    "text": "2.2 El diseño muestral complejo\nComo el MAS no funciona tan bien en la práctica, las encuestas en su mayoria usan tres trucos combinados: estratificación, conglomerados y ponderadores.\n\n\n1. Estratificación\nEs dividir la población en grupos (estratos) antes de hacer la muestra, y muestrear dentro de cada uno\nPara qué sirve\n\nAsegurar que todos los grupos estén representados\nMejorar la precisión de las estimaciones\nNos permite análisis por estrato\n\n\n\n\n2. Muestreo Por Conglomerados\nEs cuando en vez de elegir personas sueltas por todo Chile, elegimos grupos geográficos (manzanas, sectores) y dentro de esos grupos encuestamos varias viviendas.\ntiene algunos problemas\n\nLa gente que vive cerca tiende a parecerse más entre sí, entonces cada encuesta dentro de una manzana aporta menos información nueva que una encuesta tomada al azar de cualquier parte del país. Esto hace que las estimaciones sean menos precisas.\nCuando combinamos estratificación (sobrerrepresentando algunos grupos) con conglomerados, ya no todos tienen la misma probabilidad de ser encuestados. Eso rompe el supuesto del MAS y obliga a corregir\n\n\n…… ¿Cómo Corregimos? ……\n\n\n3. Ponderadores\nSon un peso que se le asigna a cada encuestado para indicar a cuántas personas de la población representa. Si una persona tiene un ponderador de 500, significa que en el análisis vale por sí misma + otras 499 personas.\nIncluyen ajuste\n\nPor no respuesta\nPost estratificación"
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#regresión-y-diseño-complejo",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#regresión-y-diseño-complejo",
+    "title": "Ayudantía Prueba",
+    "section": "3.1 . Regresión y diseño complejo",
+    "text": "3.1 . Regresión y diseño complejo\n\n3.1.1 Regresión simple\nEcuación: ŷ = a + bx\n\na (intercepto): el valor de Y cuando X = 0.\nb (pendiente): cuánto cambia Y, en promedio, cuando X aumenta en una unidad. Es lo más importante para interpretar.\n\n\n\nMínimos Cuadrados Ordinarios (OLS)\nEs la recta que minimiza la suma de los residuos al cuadrado. Un residuo es la distancia vertical entre el valor observado y el predicho por la recta (es básicamente el “error” del modelo en ese punto).\n\n\n\n\nAnálisis de residuos\n\nSi los residuos están dispersos al azar alrededor del cero → el modelo lineal funciona bien (homocedasticidad).\nSi forman un patrón curvo → la relación no era lineal.\nSi forman un embudo → varianza no constante (heterocedasticidad), las predicciones son menos confiables en ciertos rangos.\n\n\n\n\n\nR2\nEl coeficiente de determinación nos dice qué proporción de la variabilidad de Y queda explicada por el modelo, va de 0 a 1. Un R² de 0,13 significa que el modelo explica el 13% de la variación de Y.\n\n\n\n\n3.1.2 Regresión Multiple\nSolucionan el problema de la RLS que asume que solo X afecta a Y, lo cual casi nunca es cierto en ciencias sociales.\nEcuación: Y=b0+b1X1+b2X2+…+bkXk+ϵ\n\n\nControl estadístico\nLa Rregresión Lineal Multiple estima el efecto de X₁ sobre Y como si mantuviéramos constantes las demás variables. Es un ajuste matemático que aísla el efecto “puro” de cada predictor.\n\n\n\nVariables categóricas\n\nDicotómicas (ej. sexo): se codifican 0/1\nPolitómicas (ej. nivel educativo: básico/medio/superior): se crean k–1 dummies dejando una categoría como referencia.\n\n\n\n\nR2 múltiple vs. R2 ajustado\n\nR2 múltiple: proporción de la varianza de Y explicada por todos los predictores juntos\n\nProblema: se infla si agregas variables irrelevantes.\n\nR² ajustado: corrige por el número de predictores. Penaliza la complejidad innecesaria.\n\nEs mejor para comparar modelos con distinto número de variables.\n\n\n\n¿Por qué es importante hacer Regresiones con muestreo complejo?\nlm() asume que cada persona en la muestra fue elegida con la misma probabilidad y de forma independiente, ignorando los estratos, conglomerados y ponderadores.\n\nLos coeficientes (b) salen sesgados. Sin usar los ponderadores, el modelo trata por igual a una persona que representa a 100 chilenos y a otra que representa a 1.000. El resultado no refleja a la población real, sino a la muestra “tal como fue elegida”, con sus sobrerrepresentaciones.\nLos errores estándar quedan subestimados. Esto es lo más peligroso. Como las personas dentro de un mismo conglomerado se parecen más entre sí, cada encuesta aporta menos información nueva de la que lm() cree, entregando errores estándar más chicos de lo que realmente son"
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#lectura-de-regresiones",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#lectura-de-regresiones",
+    "title": "Ayudantía Prueba",
+    "section": "3.2 Lectura de Regresiones",
+    "text": "3.2 Lectura de Regresiones\n\nRegresión Lineal Simple\n¿cuánto influye la escolaridad en el ingreso de las personas en Chile? Usamos CASEN 2024, con la variable dependiente ypchautcor (ingreso per cápita autónomo del hogar) y como predictor esc (años de escolaridad). Lo importante: ya declaramos previamente el diseño complejo con svydesign() indicando los estratos (varstrat), conglomerados (varunit) y ponderadores (expr).\n\n\n\n\n\n\n\nImportante\n\n\n\n\n\n\n\n\n\n\n\n\nColumna\nQué es\n\n\n\n\nEstimate\nEl valor del coeficiente (b).\n\n\nStd. Error\nEl error estándar (qué tan precisa es la estimación).\n\n\nt value\nEstimate dividido por SE.\n\n\nPr(&gt;|t|)\nEl Valor P.\n\n\n\n\n\n\n\nIntercepto\nIntercept = 85432.1\nEs el ingreso predicho cuando escolaridad = 0. O sea, una persona con 0 años de educación tendría un ingreso estimado de $85.432. En este caso sí tiene interpretación práctica (existe gente con 0 años de escolaridad), aunque no siempre la tiene\n\n\n\nCoeficiente\nesc = 42178.6\nPor cada año adicional de escolaridad, el ingreso per cápita autónomo aumenta en promedio $42.179, esa es la pendiente el efecto de un año más de educación\n\n\n\nSignificancia\nComo p &lt; 0,05 → rechazamos H₀.\nConcluimos que el efecto de la escolaridad sobre el ingreso es estadísticamente significativo en la población chilena\n\n\n\n¿Por qué este p-valor es confiable y el de un lm() no lo sería?\nel error estándar fue calculado considerando que CASEN tiene conglomerados (gente del mismo barrio se parece), estratos (sobrerrepresentación) y ponderadores (cada persona representa a varios). Si hubieras usado lm() ignorando todo eso, el SE habría salido más chico de lo que corresponde, el t más inflado, y podrías haber declarado significativos efectos que en realidad no lo son.\n\n\n\n\nRegresión Lineal Multiple\n¿cómo influyen la escolaridad, la edad, el sexo y la zona de residencia en el ingreso per cápita autónomo del hogar? Seguimos usando CASEN 2024 con el diseño complejo declarado.\n\nVariables en el modelo:\nypchautcor ingreso per cápita autónomo (variable dependiente).\nesc años de escolaridad (continua).\nedad edad en años (continua).\nsexo factor con dos niveles (Hombre = referencia, Mujer).\nzona factor con dos niveles (Urbana = referencia, Rural).\n\nIntercepto\nIntercept = -42180.5\nEs el ingreso predicho cuando todas las variables valen cero o están en la categoría de referencia: una persona con 0 años de escolaridad, 0 años de edad, hombre y de zona urbana. El valor sale negativo, lo cual no tiene sentido sustantivo, pero matemáticamente es solo el punto de partida del modelo\n\n\n\nCoeficiente\nesc = 38624.1\nPor cada año adicional de escolaridad, el ingreso per cápita autónomo aumenta en promedio $38.624, controlando por edad, sexo y zona\nedad= 3215.7\nPor cada año adicional de edad, el ingreso aumenta en promedio $3.216, controlando por escolaridad, sexo y zona\nsexoMujer = -58932.4\nLas mujeres ganan en promedio $58.932 menos que los hombres, controlando por escolaridad, edad y zona\nzonaRural = -127845.6\nLas personas que viven en zonas rurales ganan en promedio $127.846 menos que las de zonas urbanas, controlando por escolaridad, edad y sexo\n\n\n\nSignificancia\nLas cuatro variables tienen *** (p &lt; 0,001). En la población chilena hay evidencia de que las cuatro influyen sobre el ingreso del hogar"
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#análisis-factorial-exploratorio",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#análisis-factorial-exploratorio",
+    "title": "Ayudantía Prueba",
+    "section": "4.1 Análisis Factorial Exploratorio",
+    "text": "4.1 Análisis Factorial Exploratorio\nEs una técnica que busca reducir muchas variables observadas a un número menor de factores latentes\nLa lógica es simple si varias variables están altamente correlacionadas entre sí, probablemente están midiendo lo mismo El AFE detecta esos “grupos” de variables y los resume en factores\nTiene tres objetivos\n\nAnalizar la estructura de correlaciones: ¿cuántos factores hay detrás\nIdentificar el significado de los factores: ¿qué variables cargan en cada uno?\n\n3.Calcular puntuaciones factoriales: asignarle a cada persona un puntaje en cada factor, que después se puede usar como variable en otros análisis\n\n\n\n\n\n\nImportante\n\n\n\n\n\n# Diferencia AFE vs ACP (Análisis de Componentes Principales)\n\nACP → técnica de resumen de datos\n\nBusca capturar la varianza total de las variables, no distingue entre varianza compartida y varianza única\n\nAFE → técnica de modelado\n\nAsume que detrás de las variables hay factores latentes que las “causan”, solo modela la varianza común (la parte compartida).\ncon ACP describes, con AFE explicas \n\n\n\n\n\n4.1.1 6 supuestos del AFE\n\nNivel de Medición\nEl AFE se diseñó para variables continuas, pero en sociología trabajamos casi siempre con escalas Likert o dicotomicas\n\nSi las variables tienen pocas categorías (ej. menos de 5-7) Pearson subestima la correlación\nEn esos casos hay que usar correlaciones policóricas (para ordinales) o tetracóricas (para dicotómicas).\n\n\n\n\nTamaño Muestral\n\nidealmente N &gt; 200-300\nSi las comunalidades son altas, se puede tolerar muestras más chicas, si son bajas, hay que tener más N\n\n\n\n\nColinealidad\nen AFE necesitamos que las variables estén correlacionadas,si no lo están, no hay nada que factorizar\n\nTest de Esfericidad de Bartlett\n\nH0: la matriz de correlaciones es una matriz identidad (las variables NO se correlacionan entre sí)\nH|: sí se correlacionan\nQueremos rechazar H0 (p &lt; 0,05)\n\nÍndice KMO (Kaiser-Meyer-Olkin)\n\nHay un KMO global y un MSA individual por variable\nValores sobre 0,70 son aceptables y un MSA bajo 0,50 puede considerarse la eliminación\n\n\n\nNormalidad Multivariante\nSe asume normalidad multivariante (las variables siguen una distribución normal) pero esto raramente se cumple\n\n\n\nCasos Perdidos y Atipicos\nen multivariados se detectan con Distancia de Mahalanobis , valores de Distancia de Mahalanobis con p-valor &lt; 0.001 suelen considerarse atípicos y estos pueden distorsionar el análisis. El/La Investigador/a debe decidir que se hara con ellos\n\n\n\nEstandarización de Variables\nCuando las variables originales tienen escalas distintas esto puede distorsionar nuestros resultados, por lo tanto de tener variables con escalas distintas podemos trabajar con la matriz de correlaciones en lugar de la matriz de covarianzas\n\n\n\n\n4.1.2 Cómo realizar el AFE\n\nSelección de variables\nhay que tener claro qué variables van al análisis según:\n\nRelevancia Teorica\nCalidad\nFactorabilidad (KMO y barltett)\n\n\n\n\nQue factores extraer\n\nPocos factores → simplificas demasiado\nMuchos → factores sin sentido sustantivo\n\nNo hay regla única, se combinan varios criterios\nCriterio de Kayser\nEl autovalor indica cuánta varianza total explica un factor. Si las variables están estandarizadas (varianza = 1 cada una), retener factores con autovalor &gt; 1 significa quedarse con aquellos que explican más que una variable individual\nVentaja: simple y objetivo\nDesventaja: tiende a sobreestimar el número de factores\nGráfico de sedimentación\nEs un gráfico donde se ordenan los autovalores de mayor a menor. La regla es buscar el punto donde la curva cambia bruscamente\nSe retienen los factores que están antes del codo\nVentaja: intuitivo y visual\nDesventaja: a veces el codo no es claro o hay varios\n\nAnalisis Paralelo\n\nSe generan datos aleatorios con el mismo número de variables y casos que los datos reales\n\n-Se calculan los autovalores que daría ese ruido aleatorio\n-Solo se retienen los factores reales cuyo autovalor sea mayor que el del ruido aleatorio\n\n\n\n\n4.1.3 Metodos de Extracción\npara estimar las cargas factoriales\nEjes Principales (PAF) / Mínimos Cuadrados (ULS, OLS, minres)\nno asumen normalidad, son robustos\nMáxima Verosimilitud (ML)\nasume normalidad multivariante. Su gran ventaja es que permite calcular tests de bondad de ajuste e intervalos de confianza. Pero si los datos no son normales, los errores estándar malen sal\n\n\n\n4.1.4 Rotación factorial\nLa solución factorial inicial casi siempre es difícil de interpretar, hay variables que cargan moderadamente en varios factores al mismo tiempo, y no se ve qué define a cada factor\nla rotación nos entrega una estructura más facil de leer\nTipos de rotacion\n\nOrtogonal (Varimax)\n\nasume que los factores NO están correlacionados entre si\nConocimientos por área en una prueba Una evaluación con preguntas de historia, matemáticas, biología y lenguaje. Cada área puede pensarse como un factor independiente del otro → Varimax\n\nOblicua (Promax)\n\npermite que los factores SÍ estén correlacionados\nAnsiedad y depresión Son trastornos distintos, con síntomas propios, pero clínicamente sabemos que correlacionan una persona con depresión suele tener síntomas ansiosos también → Promax\n\n\n4.1.5 Cargas Factoriales\nNos dice la fuerza y dirección de la relación entre el ítem y el factor, si está estandarizada, es básicamente la correlación entre ítem y factor y la proporción de varianza del ítem explicada por el factor\nCargas factoriales sobre 0.70 suelen ser muy buenas\n4.2 COmo leer un AFE\nimagina que el equipo de investigación seleccionó 16 ítems del ELSOC por su relevancia para estudiar distintos aspectos de la vida cotidiana de las personas en Chile\nv1 = Satisfacción con la vida en general\nv2= Frecuencia con que ve a sus amigos\nv3= Calidad de la vivienda\nv4= Interés en la política nacional\nv5= Satisfacción consigo mismo\nv6 = Apoyo recibido de la familia\nv7= Suficiencia del ingreso del hogar\nv8= Asistencia a reuniones comunitarias\n`v9``= Satisfacción con sus logros\nv10= Sentimiento de estar acompañado\nv11= Estado de salud física\nv12= Voto en la última elección\nv13= Satisfacción con el rumbo de su vida\nv14= Confianza en otras personas\nv15= Acceso a servicios básicos (agua, luz, internet)\nv16= Pertenencia a organizaciones sociales\n\n\nTest de KMO y Bartlett\n\n\nBartlett: χ² = 14.238, p &lt; 0,001\n\nRechazamos H0: los 16 ítems sí están correlacionados entre sí\n\nKMO global = 0,89\n\nExcelente, los datos son adecuados para AFE\nTodos los MSA individuales están sobre 0,86, así que ningún ítem se descarta en esta etapa\n\n\n\nAnalisis Paralelo\n\nLos 4 primeros factores tienen autovalores reales muy por encima del ruido aleatorio\nA partir del factor 5, el autovalor (0,24) ya es muy cercano al aleatorio (0,06) y además menor que 1 (criterio Kaiser)\n\n\n\nscreeplot\n\nLa curva azul cae fuerte en los primeros 4 factores y se aplana después\nEl codo se ubica entre el factor 4 y el 5 ___\nNOS QUEDAMOS CON 4 FACTORES\n\n\nExtracción y Rotación Oblicua\n\n\nMR1 agrupa v1, v5, v9, v13 → ítems sobre satisfacción con la vida en general, consigo mismo, con los logros y con el rumbo.\nMR2 agrupa v2, v6, v10, v14 → ítems sobre frecuencia con amigos, apoyo familiar, sentirse acompañado y confianza en otros\nMR3 agrupa v3, v7, v11, v15 → ítems sobre vivienda, ingreso, salud y servicios básicos\nMR4 agrupa v4, v8, v12, v16 → ítems sobre interés político, asistencia a reuniones, voto y pertenencia a organizaciones\n\nComunalidades\ntodas razonablemente altas (0,51-0,71). Cada ítem queda bien explicado por la solución factorial\nVarianza Explicada\nlos 4 factores juntos explican el 60% de la varianza total\nCorrelación entre factores\ntodas entre 0,28 y 0,48 por lo tanto moderadas\nindice de ajuste\n\nRMSR = 0,03 → excelente\nRMSEA = 0,046 → buen ajuste\nTLI = 0,958 → muy bueno ___"
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#modelo-final",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#modelo-final",
+    "title": "Ayudantía Prueba",
+    "section": "MODELO FINAL!!!!",
+    "text": "MODELO FINAL!!!!\n\nLos cuatro factores que emergen del análisis son cómo se estructura el bienestar, con una dimensión material que tiene que ver con vivienda, ingreso y salud, una subjetiva que apunta a la satisfacción con la propia vida, una social que captura los vínculos con otros y una cívica que refleja la participación en la vida pública. Que estas cuatro dimensiones aparezcan separadas confirma que el bienestar no es unidimensional ni se reduce a tener plata ni a sentirse bien, sino que se juega en varios planos al mismo tiempo.\nAhora bien, que estén correlacionadas sobre todo lo material con lo subjetivo, donde la correlación llega a 0,48 revela algo central de las sociedades desiguales como la chilena, y es que las condiciones materiales de existencia siguen pesando fuertemente sobre cómo las personas evalúan su propia vida, así que la satisfacción no es un asunto puramente psicológico sino que tiene una base estructural muy concreta.\nPor otro lado, la conexión entre integración social y participación cívica (r = 0,39) muestra que los vínculos privados y los públicos se alimentan mutuamente."
+  },
+  {
+    "objectID": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#autoría-y-fuentes",
+    "href": "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.html#autoría-y-fuentes",
+    "title": "Ayudantía Prueba",
+    "section": " Autoría y fuentes ",
+    "text": "Autoría y fuentes \nEste material fue elaborado por Francisca Hernández (francisca.hernandez_c@mail.udp.cl),\nutilizando desarrollo propio en base a los contenidos del curso. Asimismo, se incorporaron elementos provenientes de las clases del profesor Gabriel Sotomayor y recursos complementarios disponibles en internet."
+  },
+  {
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Puedes contactarme a través de:\n\n📧 Email: franciscapazhernandezcanas@gmail.com\nLinkedIn Francisca Hernández Cañas"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "En este sitio subiré repositorios de materiales para utilizar R y aprender de estadistica y análisis de datos :3"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Francisca Hernández Cañas",
+    "section": "",
+    "text": "En este sitio subiré repositorios de materiales para utilizar R, aprender de estadistica y análisis de datos :3"
+  },
+  {
+    "objectID": "index.html#acerca-del-sitio",
+    "href": "index.html#acerca-del-sitio",
+    "title": "Francisca Hernández Cañas",
+    "section": "",
+    "text": "En este sitio subiré repositorios de materiales para utilizar R, aprender de estadistica y análisis de datos :3"
+  },
+  {
+    "objectID": "index.html#sobre-mí",
+    "href": "index.html#sobre-mí",
+    "title": "Francisca Hernández Cañas",
+    "section": "Sobre mí",
+    "text": "Sobre mí\nLicenciada en Sociología, diplomada en Metodología Cuantitativa, Filosofía y Género. He sido ayudante de 10 cursos siempre ligado a lo cuantitativo y utilización de softwares para el análisis de datos, pasando por distintas universidades y carreras. Me gusta mucho trabajar con datos y más si es en conjunto con la utilización de softwares que requieran programar. Actualmente me encuentro en proceso de practica profesional para poder recibir mi titulo."
+  },
+  {
+    "objectID": "index.html#intereses",
+    "href": "index.html#intereses",
+    "title": "Francisca Hernández Cañas",
+    "section": "Intereses",
+    "text": "Intereses\n\nMétodos cuantitativos y análisis de datos\nProgramación\nJugar con bbdd\nFilosofía\nMovimientos sociales y feminismos\nGénero, sexualidad y justicia reproductiva\nInvestigación económica\nArte :)\nPerritos"
+  },
+  {
+    "objectID": "index.html#educación",
+    "href": "index.html#educación",
+    "title": "Francisca Hernández Cañas",
+    "section": "Educación",
+    "text": "Educación\n\nLicenciatura en Sociología — Universidad Diego Portales (2022 - 2026)\nDiploma Género y Feminismos — UDP (2024 - 2026)\nDiploma en Métodos Cuantitativos — UDP (2023 - 2025)\nDiploma en Pensamiento Contemporáneo y Filosofía — UDP (2022 - 2024)\nLicenciatura en Teatro y Comunicación Escenica - UNIACC (2021 - 2023)"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html",
+    "href": "materiales/web-scraping/webscraping-en-r.html",
+    "title": "WebScraping en R",
+    "section": "",
+    "text": "El web scraping es una técnica automatizada de extracción de datos de sitios web mediante bots o scripts. Permite convertir información no estructurada del código HTML en formatos estructurados.\nEn lugar de que una persona copie y pegue manualmente los datos, escribimos scripts (programas) que “leen” el contenido de las páginas web, identifican los datos de interés y los guardan\nLa idea de fondo es simple las páginas web no son más que un documento de texto estructurado. Cuando abrimos una página en el navegador, lo que este hace es interpretar ese texto y mostrarlo de forma visual. Si podemos descargar ese mismo texto, podemos navegar su estructura programáticamente y extraer lo que nos interesa.\n\n\n\n\n\n\n\nLEER Consideraciones Importantes\n\n\n\n\n\nEl scraping opera en una zona gris que conviene tomarse en serio, no como trámite sino como parte del diseño metodológico.\n\nMuchos sitios prohíben explícitamente el scraping en sus términos de servicio.\nUn script puede hacer miles de solicitudes por minuto y un humano hace una cada varios segundos. Si bombardeamos un servidor con peticiones automatizadas rápidas, podemos degradar el servicio para usuarios reales, o incluso tumbar sitios pequeños. En R se implementa con Sys.sleep() o, más elegante, con slowly() de purrr.\nSi un sitio web ofrece una API siempre preferirla antes que scrapear.\nEn Chile, la Ley 19.628 (actualmente en proceso de ser reemplazada por una nueva ley de protección de datos alineada con GDPR) regula el tratamiento de datos personales. En Europa rige directamente el GDPR. Scrapear nombres, correos electrónicos, comentarios identificables o fotografías de personas entra en este terreno regulado, aun cuando la información esté públicamente disponible. La regla simple: si los datos permiten identificar a personas, consultar ética antes de proceder\n¿El sitio autoriza el acceso automatizado? La mayoría de los sitios web incluyen en la raíz de su dominio un archivo llamado robots.txt, donde declaran qué rutas están abiertas a bots y cuáles no. No tiene peso legal por sí mismo, pero ignorarlo sistemáticamente es mala práctica. En R podemos consultarlo con el paquete robotstxt:\n\nlibrary(robotstxt) paths_allowed(\"https://www.sitio-web.cl/seccion/\")\nLa función devuelve TRUE o FALSE. Un FALSE no cierra la puerta de manera absoluta, pero debería activar las alarmas y motivar una revisión más profunda."
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#rvest",
+    "href": "materiales/web-scraping/webscraping-en-r.html#rvest",
+    "title": "WebScraping en R",
+    "section": "2.1 rvest",
+    "text": "2.1 rvest\nrvest es el paquete central. Forma parte del tidyverse, está mantenido por el equipo de RStudio y su diseño sigue la misma filosofía de composición con pipes dplyr. Su trabajo consiste en dos tareas: descargar el HTML de una página y extraer de él los elementos que le pidamos. Los verbos principales son cuatro:\n\nread_html() descarga y parsea una página, dejándola lista para ser navegada\nhtml_elements() y html_element() marcan con lápiz los pedazos que nos interesan. html_elements() marca todos los pedazos que coincidan con lo que buscamos (por ejemplo, todos los titulares) y html_element() marca solo el primero que encuentra\nhtml_text2() copia el texto de lo que marcamos, tal como se ve en pantalla (sin código HTML, solo las palabras).\nhtml_attr() copia información “escondida” dentro de las etiquetas, como el link al que apunta un botón (href), la dirección de una imagen (src) o la categoría del elemento (class).\n\n\n\n\n\n\n\n\nNota sobre nombres\n\n\n\n\n\nEn versiones antiguas de rvest, las funciones se llamaban html_nodes() y html_node(). Ambas siguen funcionando, pero la documentación actual prefiere html_elements() y html_element(). Son sinónimos, se puede usar cualquiera. html_text() también sigue existiendo, pero html_text2() maneja mejor los espacios en blanco y saltos de línea."
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#chromote",
+    "href": "materiales/web-scraping/webscraping-en-r.html#chromote",
+    "title": "WebScraping en R",
+    "section": "2.2 chromote",
+    "text": "2.2 chromote\nrvest funciona así -&gt; le pedimos una página, el servidor nos la entrega y la leemos esto sirve mientras toda la información esté ahí desde el principio\nEl problema es que muchas páginas modernas no son así cuando las abrimos, lo que llega al inicio es casi una página en blanco y el contenido aparece recién un par de segundos después, porque el navegador tiene que “armar” la página sobre la marcha (con JavaScript).\nSi usamos rvest en una página de este tipo, nos devuelve la página vacía, porque rvest no sabe esperar a que todo cargue.\nPara estos casos existe chromote\nLo que hace es abrir un Chrome “invisible” (sin ventana), dejar que la página cargue completa como si la estuviéramos mirando nosotros, y recién ahí entregarnos el contenido listo\nAdemás nos permite simular acciones de un usuario: bajar con el scroll, apretar botones, esperar, etc.\nPara usarlo desde rvest, en vez de read_html() usamos read_html_live()\n\n\n\n\n\n\n¿Cómo sé si necesito chromote?\n\n\n\n\n\n\nHay una forma muy sencilla de saberlo antes de escribir código.\n\nAbres la página en Chrome\naprietas F12 para abrir las herramientas de desarrollador\ndesactivas JavaScript (Settings → Debugger → Disable JavaScript)\nrecargas la página.\n\nSi la información que quieres sigue apareciendo\n-&gt; la página es estática y rvest te alcanza\nSi la página se ve vacía o desapareció el contenido\n-&gt; la página es dinámica y necesitás chromote con read_html_live()\nImportante: para que chromote funcione, tienes que tener Chrome o Chromium instalado en tu computador"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#paquetes-complementarios",
+    "href": "materiales/web-scraping/webscraping-en-r.html#paquetes-complementarios",
+    "title": "WebScraping en R",
+    "section": "2.3 Paquetes Complementarios",
+    "text": "2.3 Paquetes Complementarios\nAdemas de rvest y chromote debemos tener los paquetes classicos de R que nos ayudan en gran parte de los proyectos\n\ntidyverse para manipular los datos una vez extraídos.\nstringr (viene con tidyverse) para limpiar texto\nlubridate para convertir las fechas que vengan como strings a objetos Date\npurrr para combinar los resultados en una sola tabla\npolite para formalizar las buenas prácticas revisa robots.txt automáticamente, etc."
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#instalación-en-r",
+    "href": "materiales/web-scraping/webscraping-en-r.html#instalación-en-r",
+    "title": "WebScraping en R",
+    "section": "2.4 Instalación en R",
+    "text": "2.4 Instalación en R\nSi es primera vez que hacemos webscraping o utilizamos R , lo primero que hay que hacer es instalar los paquetes necesarios y luego llamarlos\n\n#install.packages(c( \"rvest\", \"tidyverse\", \"chromote\", \"lubridate\", \"purrr\", \"polite\", \"robotstxt\"))\n\nlibrary(rvest)\nlibrary(tidyverse)\nlibrary(chromote)\nlibrary(lubridate)"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#el-esqueleto-del-html",
+    "href": "materiales/web-scraping/webscraping-en-r.html#el-esqueleto-del-html",
+    "title": "WebScraping en R",
+    "section": "3.1 El esqueleto del HTML",
+    "text": "3.1 El esqueleto del HTML\nUna página web es un documento de texto con etiquetasdonde cada etiqueta envuelve un contenido y puede anidarse dentro de otras, formando como un árbol\nUn ejemplo puede ser :\n\n\n\n\n\n\n\n¿Cómo llego a ver el esqueleto?\n\n\n\n\n\nInspector del navegador En cualquier página web\n\nClick derecho\n“Inspeccionar” (o “Inspect” en inglés)\n\nO atajos de teclado: F12 o Ctrl + Shift + I\n\n\n\nPiensa en el HTML como cajas dentro de cajas\n\nUna forma útil de identificar el esqueleto y a dónde queremos extraer es utilizar la extensión de Chrome SelectorGadget, que puedes encontrar haciendo click aquí."
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#descargar-la-pagina",
+    "href": "materiales/web-scraping/webscraping-en-r.html#descargar-la-pagina",
+    "title": "WebScraping en R",
+    "section": "4.1 Descargar la pagina",
+    "text": "4.1 Descargar la pagina\nDefinimos la URL y la leemos. rvest hace la petición HTTP, recibe el HTML y lo deja como un objeto listo para ser recorrido\n\nurl &lt;- \"https://quotes.toscrape.com/\"\npagina &lt;- read_html(url)\npagina\n\nEl objeto pagina no es un dataframe ni un texto plano es una estructura jerárquica que espejo el árbol HTML del sitio. Todavía no hemos extraído nada, solo tenemos la materia prima sobre la que aplicaremos selectores."
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#entender-la-estructura-del-sitio",
+    "href": "materiales/web-scraping/webscraping-en-r.html#entender-la-estructura-del-sitio",
+    "title": "WebScraping en R",
+    "section": "4.2 Entender la estructura del sitio",
+    "text": "4.2 Entender la estructura del sitio\nAntes de extraer cualquier cosa, necesitamos ver cómo está armada la página por dentro. Para esto, en Chrome (o cualquier navegador) hacemos click derecho sobre una cita y elegimos “Inspeccionar”. Se abre un panel al costado que nos muestra el código HTML de la página, resaltando justo el pedazo donde hicimos click. Mirando ahí, vemos que cada cita está dentro de un bloque que se repite con la misma forma\n\nla línea que el navegador te muestra resaltada corresponde al elemento sobre el se hizo click, en este caso, el texto de una cita.\n\nComo leer esa información\nCada línea del HTML te dice tres cosas importantes:\n\nLa etiqueta: lo primero que aparece después del &lt;. En este caso es span.\nLa clase: lo que viene en class=“…”. En este caso es text.\nEl contenido: lo que está adentro, representado por los tres puntitos … (están colapsados, pero ahí está el texto de la cita). Con esos datos ya tenemos el selector para R, como es una clase, le ponemos un punto adelante → .text\n\n\n\n\n\n\n\n\n\nLo que ves\nQué guarda\nSelector en R\n\n\n\n\n&lt;div class=\"quote\"&gt;\nel bloque completo de cada cita\n.quote\n\n\n&lt;span class=\"text\"&gt;\nel texto de la cita\n.text\n\n\n&lt;small class=\"author\"&gt;\nel nombre del autor\n.author\n\n\n&lt;a class=\"tag\"&gt;\ncada etiqueta temática\n.tag"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#extraer",
+    "href": "materiales/web-scraping/webscraping-en-r.html#extraer",
+    "title": "WebScraping en R",
+    "section": "4.3 Extraer",
+    "text": "4.3 Extraer\nLa mejor estrategia es ir de a poco, sacar un campo, verificar que esté bien, después el siguiente. Si tratamos de armar todo de una vez y algo falla, no vamos a saber dónde está el problema\nEmpezamos con las citas como vimos que están en &lt;span class=\"text\"&gt;, el selector es .text\n\n# Toma la página web guardada en \"pagina\"\ncitas &lt;- pagina %&gt;% \n# Busca todos los elementos HTML con la clase \".text\"\n  html_elements(\".text\") %&gt;% \n# Extrae solo el texto de esos elementos\n  html_text2()\n\nhead(citas, 3)\n\nAhora con los autores\n\n# Toma la página web guardada en \"pagina\"\nautores &lt;- pagina %&gt;% \n# Busca todos los elementos HTML con la clase \".author\"\n  html_elements(\".author\") %&gt;% \n# Extrae solo el texto de esos elementos\n  html_text2()\n\nhead(autores, 3)"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#etiquetas",
+    "href": "materiales/web-scraping/webscraping-en-r.html#etiquetas",
+    "title": "WebScraping en R",
+    "section": "4.4 Etiquetas",
+    "text": "4.4 Etiquetas\nLas etiquetas son más complicadas porque cada cita puede tener varias, si extraemos todas las etiquetas de la página de una sola vez, nos queda un vector largo donde no sabemos cuáles pertenecen a cuál cita.\nLa solución es cambiar de enfoque: primero seleccionamos el bloque entero de cada cita &lt;div class=\"quote\"&gt; y dentro de cada bloque sacamos sus etiquetas\n\n# Primero, los bloques completos de cada cita (los div class=\"quote\")\nbloques &lt;- pagina %&gt;%  html_elements(\".quote\")\n\n# Para cada bloque, extraemos sus etiquetas\netiquetas &lt;- bloques %&gt;% \n  map(\\(bloque) bloque %&gt;% \n        html_elements(\".tag\") %&gt;% \n        html_text2())\n\nEl resultado es una lista cada elemento contiene las etiquetas de una cita. Suena raro tener una “lista dentro de una tabla”, pero a tibble no le molesta y respeta la estructura real de los datos"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#armar-la-tabla",
+    "href": "materiales/web-scraping/webscraping-en-r.html#armar-la-tabla",
+    "title": "WebScraping en R",
+    "section": "4.5 Armar la tabla",
+    "text": "4.5 Armar la tabla\n\ndf_citas &lt;- tibble(\n  cita = citas,\n  autor = autores,\n  etiquetas = etiquetas\n)\n\ndf_citas\n\nNos queda una tabla de 10 filas y 3 columnas. Sobre esto ya podemos trabajar con dplyr como con cualquier otro dataframe"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#unir-en-un-solo-dataframe",
+    "href": "materiales/web-scraping/webscraping-en-r.html#unir-en-un-solo-dataframe",
+    "title": "WebScraping en R",
+    "section": "4.6 Unir en un solo DataFrame",
+    "text": "4.6 Unir en un solo DataFrame\nHasta ahora trabajamos solo con la primera página. Pero quotes.toscrape tiene varias, la página 2, la 3, etc. Para recorrerlas todas, necesitamos dos cosas\nPrimero, convertir lo que ya hicimos en una función que reciba una URL y devuelva la tabla con sus 10 citas\n\n# Crea una función llamada scrapear_pagina_citas\n# que recibe una URL como argumento\nscrapear_pagina_citas &lt;- function(url) {\n  # Lee y descarga el HTML de la página\n  pagina &lt;- read_html(url)\n  # Busca todos los bloques con clase \".quote\"\n  bloques &lt;- pagina %&gt;% html_elements(\".quote\")\n  # Crea un tibble con la información extraída\n  tibble(\n    # Extrae el texto de cada cita\n    cita = bloques %&gt;%  \n      html_element(\".text\") %&gt;%  \n      html_text2(),\n    # Extrae el autor de cada cita\n    autor = bloques %&gt;% \n      html_element(\".author\") %&gt;%  \n      html_text2(),\n    # Extrae todas las etiquetas/tags de cada cita\n    etiquetas = bloques %&gt;% \n      # Recorre cada bloque individualmente\n      map(\\(b) b %&gt;% \n            # Busca elementos con clase \".tag\"\n            html_elements(\".tag\") %&gt;% \n            # Extrae el texto de cada tag\n            html_text2()))}\n\n\nacá usamos html_element() (singular) sobre bloques, esto significa “para cada bloque, traeme el primer elemento que coincida”. Como dentro de cada &lt;div class=\"quote\"&gt; hay solo un &lt;span class=\"text\"&gt; y un &lt;small class=\"author\"&gt;, nos queda más limpio\n\nSegundo, armamos un vector con las URLs de todas las páginas que queremos y aplicamos la función a cada una Para esto usamos map_dfr() de purrr, que aplica la función a cada URL y va apilando los resultados en una sola tabla\n\n# Crea una lista de URLs:\n# https://quotes.toscrape.com/page/1/\n# https://quotes.toscrape.com/page/2/\n# ...\n# hasta la página 5\nurls &lt;- paste0(\"https://quotes.toscrape.com/page/\",1:5,\"/\")\n\n# Crea una versión \"lenta\" del scraper\n# para esperar 1 segundo entre cada petición\n# y no saturar el servidor\nscraper_cortes &lt;- slowly(scrapear_pagina_citas,\n  rate = rate_delay(1))\n\n# Recorre todas las URLs:\n# - scrapea cada página\n# - une todos los resultados en un solo dataframe\ntodas_las_citas &lt;- urls %&gt;% map_dfr(scraper_cortes)\n\n# Muestra el dataframe final con todas las citas\ntodas_las_citas"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#sumar-los-demas-datos",
+    "href": "materiales/web-scraping/webscraping-en-r.html#sumar-los-demas-datos",
+    "title": "WebScraping en R",
+    "section": "4.7 Sumar los demas datos",
+    "text": "4.7 Sumar los demas datos\nSi volvemos a inspeccionar el HTML de la página, dentro de cada &lt;div class=\"quote\"&gt; hay un enlace “(about)” al lado del autor que lleva a una página con su fecha de nacimiento, lugar y biografía. Esto nos permite practicar un patrón muy común, primero juntamos enlaces, después visitamos cada enlace para sacar más información\n\n# Desde la página HTML guardada en \"pagina\"\nurls_autores &lt;- pagina %&gt;% \n  # Busca todos los bloques de citas\n  html_elements(\".quote\") %&gt;% \n  # Dentro de cada cita, busca el link del autor\n  # \".author + a\" significa:\n  # \"el &lt;a&gt; que viene justo después de .author\"\n  html_element(\".author + a\") %&gt;% \n  # Extrae el atributo href (el enlace)\n  html_attr(\"href\")\n# Los links extraídos son relativos:\n# ej: \"/author/Albert-Einstein\"\n# Entonces se agrega el dominio para crear URLs completas\nurls_autores &lt;- paste0(  \"https://quotes.toscrape.com\",urls_autores)\n# Muestra las primeras URLs encontradas\nhead(urls_autores)\n\nAhora la función que visita la página de un autor acá introducimos tryCatch(), que es fundamental en scraping sirve para que, si una página falla, el resto del proceso siga andando. Sin tryCatch(), un solo error nos rompe todo\n\n# Crea una función para extraer información\n# de la página de un autor\nextraer_ficha_autor &lt;- function(url) {\n  # Intenta ejecutar el scraping\n  # Si ocurre un error, evita que el código se rompa\n  tryCatch({\n    # Lee el HTML de la página del autor\n    pagina &lt;- read_html(url)\n    # Crea un tibble con la información extraída\n    tibble(\n    # Guarda la URL del autor\n    url_autor = url,\n    # Extrae el nombre del autor\n    nombre = pagina %&gt;% \n        html_element(\".author-title\") %&gt;% \n        html_text2(),\n    # Extrae la fecha de nacimiento\n    nacimiento_fecha = pagina %&gt;% \n        html_element(\".author-born-date\") %&gt;% \n        html_text2(),\n    # Extrae el lugar de nacimiento\n    nacimiento_lugar = pagina %&gt;% \n        html_element(\".author-born-location\") %&gt;% \n        html_text2(),\n    # Extrae la biografía del autor\n    biografia = pagina %&gt;% \n        html_element(\".author-description\") %&gt;% \n        html_text2() %&gt;% \n   # Limpia espacios y saltos de línea extra\n    str_squish())},\n  # Si ocurre un error:\n  # devuelve al menos la URL problemática\n  error = function(e) {\n    tibble(url_autor = url)})}\n\n\nAplicamos la función a los enlaces, también con slowly()\n\n# Crea una versión \"lenta\" de la función\n# para esperar 1 segundo entre solicitudes\n# y no saturar el servidor\nextraer_lento &lt;- slowly(extraer_ficha_autor, rate = rate_delay(1))\n# Recorre todas las URLs de autores:\n# - elimina URLs repetidas\n# - extrae la información de cada autor\n# - une todos los resultados en un solo dataframe\nfichas &lt;- urls_autores %&gt;% \n  unique() %&gt;% \n  map_dfr(extraer_lento)\n\n# Muestra el dataframe final con las fichas de autores\nfichas"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#abrir-la-página-con-chromote",
+    "href": "materiales/web-scraping/webscraping-en-r.html#abrir-la-página-con-chromote",
+    "title": "WebScraping en R",
+    "section": "5.1 Abrir la página con chromote",
+    "text": "5.1 Abrir la página con chromote\n\nurl_wiki &lt;- \"https://es.wikipedia.org/wiki/Anexo:Países_por_PIB_(nominal)\"\n# Acá usamos read_html_live() en vez de read_html()\nsesion &lt;- read_html_live(url_wiki)\n# Esperamos a que cargue\nSys.sleep(4)\n\nread_html_live() abre un Chrome invisible detrás de escena, carga la página entera (con su JavaScript ejecutándose) y nos deja interactuar con ella\nLa variable sesion no es un HTML congelado es un navegador “vivo” que podemos controlar\n\n¿Por qué la pausa con Sys.sleep(4)?\nEl navegador necesita tiempo para ejecutar el JavaScript y terminar de armar la página, si tratamos de extraer datos antes de que termine, nos puede devolver una página incompleta sin avisarnos\nsi tu internet es lento o tu computador no es muy rápido, conviene subir a 6 u 8 segundos."
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#interacturar",
+    "href": "materiales/web-scraping/webscraping-en-r.html#interacturar",
+    "title": "WebScraping en R",
+    "section": "5.2 Interacturar",
+    "text": "5.2 Interacturar\nSi necesitamos hacer algo en la página antes de extraer (scroll, clic, llenar un formulario), chromote tiene tres métodos principales\nsesion$scroll_by(top = N) → baja N píxeles,con 100000 llega al final de casi cualquier página\nsesion$click(\"selector\") → hace clic en el elemento que indiquemos\n(el selector lo identificamos antes con click derecho → Inspeccionar).\nsesion$type(\"selector\", \"texto\") → escribe en un campo de formulario.\nPara nuestro caso, hacemos scroll hasta abajo para forzar que cargue todo\n\nsesion$scroll_by(top = 100000)\nSys.sleep(3)"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#extraer-la-tabla",
+    "href": "materiales/web-scraping/webscraping-en-r.html#extraer-la-tabla",
+    "title": "WebScraping en R",
+    "section": "5.3 Extraer la tabla",
+    "text": "5.3 Extraer la tabla\nEn este caso nos interesa scrapear todos los datos de las tablas 1 y 2, por lo tanto scrapeamos las wikitables\n\n\n\n\n\n\n\nImportante\n\n\n\n\n\nTipos de tablas que hay en Wikipedia\nWikipedia usa varias clases de tabla según el rol que cumple cada una\nlas que vas a encontrar más seguido son:\nwikitable → la clásica, con bordes grises y encabezados sombreados,es la que se usa para datos: listas de países, estadísticas, comparaciones\ninfobox → el recuadro lateral que aparece arriba a la derecha en muchos artículos (con la foto del personaje, datos biográficos, etc.) técnicamente es una tabla, aunque visualmente parece una ficha\nnavbox → las cajas de navegación al final de los artículos, con enlaces a temas relacionados\nsortable → no es una clase sola, sino que se combina wikitable sortable, significa que la tabla se puede ordenar haciendo clic en los encabezados\nmw-collapsible → tablas plegables que se pueden ocultar/mostrar\n\n\n\n\n# Desde la sesión/página web cargada en \"sesion\"\ntabla &lt;- sesion %&gt;% \n  # Busca la primera tabla con clase \"wikitable\"\n  html_element(\"table.wikitable\") %&gt;% \n  # Convierte la tabla HTML en un dataframe\n  html_table()\n# Muestra la estructura del dataframe\nglimpse(tabla)\n\n\nPara encontrar el selector table.wikitable, haces click derecho sobre la tabla en Wikipedia → Inspeccionar, y vas a ver una etiqueta &lt;table class=\"wikitable\"&gt;\n\nhtml_table() hace mucho trabajo por nosotros, detecta los encabezados, respeta celdas combinadas, maneja vacíos.\nLo que devuelve no es perfecto (los números suelen venir como texto, los nombres de columnas pueden tener caracteres raros), pero es un excelente punto de partida.\nahora escrapeamos la tabla 2\n\n# Desde la página web guardada en \"sesion\"\ntablas &lt;- sesion %&gt;% \n  # Busca TODAS las tablas con clase \"wikitable\"\n  html_elements(\"table.wikitable\") %&gt;% \n  # Convierte cada tabla HTML en un dataframe\n  html_table()\n# Cuenta cuántas tablas fueron encontradas\nlength(tablas)\n# Extrae la segunda tabla de la lista\n# [[2]] significa: \"el elemento número 2\"\ntabla2 &lt;- tablas[[2]]"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#limpiar-lo-extraido",
+    "href": "materiales/web-scraping/webscraping-en-r.html#limpiar-lo-extraido",
+    "title": "WebScraping en R",
+    "section": "5.4 Limpiar lo extraido",
+    "text": "5.4 Limpiar lo extraido\nLos datos scrapeados casi nunca vienen listos para usar, los números suelen tener puntos de miles, símbolos de moneda, notas al pie, las fechas vienen en formatos raros hay espacios sobrantes\nLa limpieza es parte del trabajo\n\n# Limpia y reorganiza la tabla original\ntabla_limpia &lt;- tabla %&gt;%\n  # Renombra columnas\n  rename(pos = 1,         # posición/ranking\n         pais = 2,        # nombre del país\n         pib_texto = 3    # PIB en formato texto\n         ) %&gt;%\n  mutate(\n    # Extrae la parte visible del PIB\n    # después del primer punto\n    pib_visible = str_extract(pib_texto,\"\\\\.(.+)$\",group = 1),\n    # Limpia el texto del PIB:\n    # deja solo números y lo convierte a numeric\n    pib = pib_visible %&gt;%\n      str_remove_all(\"[^0-9]\") %&gt;%\n      as.numeric(),\n    # Limpia nombres de países\n    pais = map_chr(pais, \\(x) {\n   #Divide el texto en palabras\n    palabras &lt;- str_split(x, \"\\\\s+\")[[1]]\n    # Cuenta cuántas palabras tiene\n     n &lt;- length(palabras)\n      # Se queda con la primera mitad\n      # y vuelve a unirlas como texto\n      paste(palabras[1:ceiling(n/2)],collapse = \" \")})) %&gt;%\n    # Elimina filas inválidas\n  filter(!is.na(pib), pib &gt; 0) %&gt;%\n  # Selecciona solo las columnas finales\n  select(pos, pais, pib)\n# Muestra las primeras 10 filas\nhead(tabla_limpia, 10)"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#cerrar-el-navegador",
+    "href": "materiales/web-scraping/webscraping-en-r.html#cerrar-el-navegador",
+    "title": "WebScraping en R",
+    "section": "5.5 Cerrar el navegador",
+    "text": "5.5 Cerrar el navegador\nchromote deja corriendo el Chrome invisible mientras la sesión exista, al terminar conviene cerrarlo explícitamente\n\nsesion$session$close()\n\nSi no lo cerramos, eventualmente se cierra solo cuando R libera la memoria, pero mientras tanto puede quedar consumiendo recursos, para scripts largos o tareas grandes, es buena costumbre cerrar"
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#errores-comunes",
+    "href": "materiales/web-scraping/webscraping-en-r.html#errores-comunes",
+    "title": "WebScraping en R",
+    "section": "6.1 Errores comunes",
+    "text": "6.1 Errores comunes\n\nLa tabla queda desalineada\nSi dos columnas de tu tibble tienen distinto largo, algún selector está capturando elementos que el otro no\nLa regla imprimir length() de cada vector antes de combinar\n\n\nSolo me trae el primer elemento\nEs el error más común al empezar confundir html_element() (singular, trae uno) con html_elements() (plural, trae todos)\nSi el resultado es sospechosamente corto, revisa esto\n\n\nEl selector no encuentra nada\nhay dos causas habituales:\n\nla página es dinámica y el contenido todavía no carga → usar read_html_live() con pausa\nEl selector está mal escrito (un punto donde va un numeral, una clase mal, etc.) → probar el selector directamente en el navegador antes de usarlo en R, por ejemplo, en el panel de Inspeccionar, hay una pestaña llamada Console ahí escribe document.querySelectorAll(\".text\") y si te devuelve 10 elementos el selector funciona.\n\n\n\nEl servidor responde con error (403 o 429)\nSignifica que el servidor te rechaza o se está saturando\nSolución agregar más pausa entre peticiones, configurar un user-agent identificable (el paquete polite lo hace automático)\nSi te sigue bloqueando, es señal clara de que no debes insistir\n\n\nchromote no encuentra Chrome\nchromote necesita Chrome o Chromium instalado en el computador, no solo el paquete de R, en Windows y Mac alcanza con instalar Google Chrome\nEn Linux, instalar chromium-browser con el gestor de paquetes."
+  },
+  {
+    "objectID": "materiales/web-scraping/webscraping-en-r.html#autoría-y-fuentes",
+    "href": "materiales/web-scraping/webscraping-en-r.html#autoría-y-fuentes",
+    "title": "WebScraping en R",
+    "section": " Autoría y fuentes ",
+    "text": "Autoría y fuentes \nEste material fue elaborado por Francisca Hernández (franciscapazhernandezcanas@gmail.com), utilizando desarrollo propio, se incorporaron elementos provenientes de recursos complementarios disponibles en internet."
+  }
+]
