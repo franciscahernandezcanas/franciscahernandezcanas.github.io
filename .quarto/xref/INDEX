@@ -13,5 +13,11 @@
   },
   "materiales/ayudantia-aadd-ii-prueba.qmd": {
     "ayudantia-aadd-ii-prueba.html": "54106520"
+  },
+  "materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.qmd": {
+    "ayudantia-aadd-ii-prueba.html": "caf0e5f7"
+  },
+  "materiales/web-scraping/webscraping-en-r.qmd": {
+    "webscraping-en-r.html": "36f0b6e9"
   }
 }

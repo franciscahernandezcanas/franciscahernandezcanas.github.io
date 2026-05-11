@@ -12,8 +12,13 @@ website:
         text: Proyectos
       - href: contacto.qmd
         text: Contacto
-      - href: materiales/ayudantia-aadd-ii-prueba.qmd
-        text: Materiales
+      - text: Materiales
+        menu:
+          - href: materiales/ayudantia-prueba/ayudantia-aadd-ii-prueba.qmd
+            text: Ayudantía Prueba
+          - href: materiales/web-scraping/webscraping-en-r.qmd
+            text: Hacer WebScraping en R
+
 format:
   html:
     theme: cosmo
