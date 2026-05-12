@@ -7,7 +7,8 @@ last-modified:
 title-block-banner: true
 format: 
   html:
-    embed-resources: true
+    embed-resources: false
+    self-contained: false
     smooth-scroll: true
     fontcolor: black
     toc: true
